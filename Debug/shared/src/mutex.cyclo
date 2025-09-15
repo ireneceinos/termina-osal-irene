@@ -1,0 +1,4 @@
+C:/Users/irene/STM32CubeIDE/workspace_1.18.1/FreeRTOS_TerminaOSALTest/shared/include/termina/shared/mutex.h:40:42:__termina_shared_mutex__get_mutex	1
+../shared/src/mutex.c:8:6:__termina_mutex__init	3
+../shared/src/mutex.c:35:6:__termina_mutex__lock	3
+../shared/src/mutex.c:54:6:__termina_mutex__unlock	3

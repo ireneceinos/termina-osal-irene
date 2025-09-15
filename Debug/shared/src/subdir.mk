@@ -1,0 +1,54 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (13.3.rel1)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../shared/src/array.c \
+../shared/src/except.c \
+../shared/src/interrupt.c \
+../shared/src/lock.c \
+../shared/src/msg_queue.c \
+../shared/src/mutex.c \
+../shared/src/periodic_timer.c \
+../shared/src/pool.c \
+../shared/src/task.c \
+../shared/src/time.c 
+
+OBJS += \
+./shared/src/array.o \
+./shared/src/except.o \
+./shared/src/interrupt.o \
+./shared/src/lock.o \
+./shared/src/msg_queue.o \
+./shared/src/mutex.o \
+./shared/src/periodic_timer.o \
+./shared/src/pool.o \
+./shared/src/task.o \
+./shared/src/time.o 
+
+C_DEPS += \
+./shared/src/array.d \
+./shared/src/except.d \
+./shared/src/interrupt.d \
+./shared/src/lock.d \
+./shared/src/msg_queue.d \
+./shared/src/mutex.d \
+./shared/src/periodic_timer.d \
+./shared/src/pool.d \
+./shared/src/task.d \
+./shared/src/time.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+shared/src/%.o shared/src/%.su shared/src/%.cyclo: ../shared/src/%.c shared/src/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -D__TERMINA_NUMBER_OF_INTERRUPTS=16 -DUSE_HAL_DRIVER -DSTM32L432xx -c -I"C:/Users/irene/STM32CubeIDE/workspace_1.18.1/FreeRTOS_TerminaOSALTest/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/irene/STM32CubeIDE/workspace_1.18.1/FreeRTOS_TerminaOSALTest/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"C:/Users/irene/STM32CubeIDE/workspace_1.18.1/FreeRTOS_TerminaOSALTest/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/irene/STM32CubeIDE/workspace_1.18.1/FreeRTOS_TerminaOSALTest/Inc" -I"C:/Users/irene/STM32CubeIDE/workspace_1.18.1/FreeRTOS_TerminaOSALTest/Drivers/CMSIS/Include" -I"C:/Users/irene/STM32CubeIDE/workspace_1.18.1/FreeRTOS_TerminaOSALTest/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/irene/STM32CubeIDE/workspace_1.18.1/FreeRTOS_TerminaOSALTest/Drivers/BSP/STM32L4xx_Nucleo_32" -I"C:/Users/irene/STM32CubeIDE/workspace_1.18.1/FreeRTOS_TerminaOSALTest/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/irene/STM32CubeIDE/workspace_1.18.1/FreeRTOS_TerminaOSALTest/api/termina" -I"C:/Users/irene/STM32CubeIDE/workspace_1.18.1/FreeRTOS_TerminaOSALTest/api" -I"C:/Users/irene/STM32CubeIDE/workspace_1.18.1/FreeRTOS_TerminaOSALTest/shared/include" -I"C:/Users/irene/STM32CubeIDE/workspace_1.18.1/FreeRTOS_TerminaOSALTest/os/freertos/include" -I"C:/Users/irene/STM32CubeIDE/workspace_1.18.1/FreeRTOS_TerminaOSALTest/ut/ut_msg_queue/include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+
+clean: clean-shared-2f-src
+
+clean-shared-2f-src:
+	-$(RM) ./shared/src/array.cyclo ./shared/src/array.d ./shared/src/array.o ./shared/src/array.su ./shared/src/except.cyclo ./shared/src/except.d ./shared/src/except.o ./shared/src/except.su ./shared/src/interrupt.cyclo ./shared/src/interrupt.d ./shared/src/interrupt.o ./shared/src/interrupt.su ./shared/src/lock.cyclo ./shared/src/lock.d ./shared/src/lock.o ./shared/src/lock.su ./shared/src/msg_queue.cyclo ./shared/src/msg_queue.d ./shared/src/msg_queue.o ./shared/src/msg_queue.su ./shared/src/mutex.cyclo ./shared/src/mutex.d ./shared/src/mutex.o ./shared/src/mutex.su ./shared/src/periodic_timer.cyclo ./shared/src/periodic_timer.d ./shared/src/periodic_timer.o ./shared/src/periodic_timer.su ./shared/src/pool.cyclo ./shared/src/pool.d ./shared/src/pool.o ./shared/src/pool.su ./shared/src/task.cyclo ./shared/src/task.d ./shared/src/task.o ./shared/src/task.su ./shared/src/time.cyclo ./shared/src/time.d ./shared/src/time.o ./shared/src/time.su
+
+.PHONY: clean-shared-2f-src
+

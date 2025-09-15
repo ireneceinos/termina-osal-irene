@@ -1,0 +1,2 @@
+../os/freertos/src/exec.c:9:6:freertos_shutdown_executive	1
+../os/freertos/src/exec.c:24:16:__termina_exec__reboot	1

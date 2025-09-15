@@ -1,0 +1,8 @@
+../os/freertos/src/except.c:15:6:__termina_os_except__init_emitter	1
+../os/freertos/src/except.c:22:6:__termina_except__array_index_out_of_bounds	1
+../os/freertos/src/except.c:47:6:__termina_except__array_slice_out_of_bounds	1
+../os/freertos/src/except.c:73:6:__termina_except__array_slice_negative_range	1
+../os/freertos/src/except.c:99:6:__termina_except__array_slice_invalid_range	1
+../os/freertos/src/except.c:127:6:__termina_except__action_failure	2
+../os/freertos/src/except.c:156:6:__termina_except__msg_queue_send_error	1
+../os/freertos/src/except.c:180:6:__termina_except__msg_queue_recv_error	1

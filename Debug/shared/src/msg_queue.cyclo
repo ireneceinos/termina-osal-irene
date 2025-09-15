@@ -1,0 +1,5 @@
+C:/Users/irene/STM32CubeIDE/workspace_1.18.1/FreeRTOS_TerminaOSALTest/shared/include/termina/shared/msg_queue.h:29:46:__termina_shared_msg_queue__get_queue	1
+../shared/src/msg_queue.c:8:6:__termina_msg_queue__init	3
+../shared/src/msg_queue.c:37:6:__termina_msg_queue__send	3
+../shared/src/msg_queue.c:59:6:__termina_msg_queue__recv	3
+../shared/src/msg_queue.c:81:6:__termina_out_port__send	3

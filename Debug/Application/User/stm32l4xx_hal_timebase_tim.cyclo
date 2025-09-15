@@ -1,0 +1,5 @@
+../Application/User/stm32l4xx_hal_timebase_tim.c:55:19:HAL_InitTick	6
+../Application/User/stm32l4xx_hal_timebase_tim.c:147:6:HAL_SuspendTick	1
+../Application/User/stm32l4xx_hal_timebase_tim.c:159:6:HAL_ResumeTick	1
+../Application/User/stm32l4xx_hal_timebase_tim.c:173:6:HAL_TIM_PeriodElapsedCallback	1
+../Application/User/stm32l4xx_hal_timebase_tim.c:183:6:TIM6_DAC_IRQHandler	1

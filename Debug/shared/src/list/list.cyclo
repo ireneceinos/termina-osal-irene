@@ -1,0 +1,6 @@
+../shared/src/list/list.c:7:6:__termina_shared_list__init	1
+../shared/src/list/list.c:20:6:__termina_shared_list__prio_add	10
+../shared/src/list/list.c:97:6:__termina_shared_list__time_add	10
+../shared/src/list/list.c:177:6:__termina_shared_list__append	6
+../shared/src/list/list.c:227:16:__termina_shared_list__extract	3
+../shared/src/list/list.c:253:16:__termina_shared_list__extract_time	4

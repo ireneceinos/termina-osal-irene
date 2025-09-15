@@ -1,4 +1,4 @@
-
+/*
 #include <termina.h>
 
 void task1(void * const arg) {
@@ -272,3 +272,4 @@ void __termina_app__init(int32_t * const status) {
     return;
 
 }
+*/

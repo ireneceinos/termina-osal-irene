@@ -1,4 +1,4 @@
-
+/*
 #include <termina.h>
 
 static uint8_t __pool_pool_memory[__termina_pool__size(sizeof(uint32_t), 10U)];
@@ -41,3 +41,4 @@ void __termina_app__init(int32_t * const status) {
     return;
 
 }
+*/

@@ -1,0 +1,5 @@
+C:/Users/irene/STM32CubeIDE/workspace_1.18.1/FreeRTOS_TerminaOSALTest/shared/include/termina/shared/task.h:47:41:__termina_shared_task__get_task	1
+C:/Users/irene/STM32CubeIDE/workspace_1.18.1/FreeRTOS_TerminaOSALTest/os/freertos/include/termina/os/freertos/priority.h:7:13:priority_termina2freertos	1
+../os/freertos/src/task.c:27:35:__freertos_task__get_task	1
+../os/freertos/src/task.c:37:13:__freertos_task__entry	1
+../os/freertos/src/task.c:50:6:__termina_os_task__init	5

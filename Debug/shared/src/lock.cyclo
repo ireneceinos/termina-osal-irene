@@ -1,0 +1,2 @@
+../shared/src/lock.c:6:18:__termina_resource__lock	4
+../shared/src/lock.c:47:6:__termina_resource__unlock	4
